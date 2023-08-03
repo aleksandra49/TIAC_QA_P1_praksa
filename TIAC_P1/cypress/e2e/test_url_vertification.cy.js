@@ -28,19 +28,6 @@ describe('URL verification', () => {
     //da nam sadrzi taj ali kako da proverim kada idemo sa jedne na drugu
     //cy.url().should('contain', 'dashboard')
 
-    /*it('something', () => {
-        
-        cy.get('input[name=username]').clear().type('Admin')
-        
-        cy.get('input[name=password]').clear().type('admin123')
-
-        
-        cy.get('button[type=submit]').click()
-        
-        cy.url().should('contain', 'dashboard')
-        
-
-    })*/
-
+    
 
 });

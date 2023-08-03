@@ -20,7 +20,7 @@ describe('login', () => {
 
         //
         cy.get('button[type=submit]').click()
-        //
+        //to mi znaci provera da bi trebao da sadrzii
         cy.url().should('contain', 'dashboard')
         //
         cy.get('.oxd-brand-banner').find('img').should('be.visible')
